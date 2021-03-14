@@ -51,10 +51,9 @@ a {
 /* Menueansicht fuer mobile Ansicht */
 .menu {
     
-    /* flex fuer einreihige Anordnung im Menue */
     display: flex;
     
-    /* ohne scrolling */
+    /* mobile Menueansicht untereinander */
     flex-wrap: wrap;
     
     /* regelmäßiger Abstand zw. Menueitems */
