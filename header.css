@@ -14,7 +14,7 @@ nav {
     padding: 0 15px;
 }
 
-/* Ankertag/links bearbeiten */
+/* Ankertag/Link(-erscheinungen) bearbeiten */
 a {
     color: white;
     text-decoration: none;
@@ -32,7 +32,7 @@ a {
     padding: 7.5px 10px 7.5px 0;
 }
 
-/* alle Item Elemente padding auf 10px für mehr Abstand zwischen den einzelnen Elementen */
+/* mehr Abstand zwischen den einzelnen Elementen */
 .item {
     padding: 10px;
 }
@@ -48,11 +48,11 @@ a {
     color: #ccc;
 }
 
-/* Menueansicht fuer mobile Ansicht */
+/* Menue fuer mobile Ansicht */
 .menu {
     /* flex fuer einreihige Anordnung im Menue */
     display: flex;
-    /**/
+    /*  */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
