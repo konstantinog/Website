@@ -76,37 +76,47 @@ a {
 
 /* es folgen Befehle zur Anordnung der einzelnen Menue Elemente (80- */
 
-/* Icon Einstell*/
+/* Icon Einstellung*/
 .toggle {
     order: 1;
     font-size: 20px;
 }
+
 .item.button {
     order: 2;
 }
+
 .item {
     order: 3;
     width: 100%;
     text-align: center;
+    
+    /* vorlaeufig Items ausblenden */
     display: none;
 }
+
+/* block Einstellung fuer Items mit class="active" */
 .active .item {
     display: block;
 }
+
 .button.secondary { /* divider between buttons and menu links */
     border-bottom: 1px #444 solid;
 }
 
-/* Submenu up from mobile screens */
+/* Submenue aufklappbar machen fuer mobile Ansicht */
 .submenu {
     display: none;
 }
+
 .submenu-active .submenu {
    display: block;
 }
+
 .has-submenu i {
     font-size: 12px;
 }
+
 .has-submenu > a::after {
     font-family: "Font Awesome 5 Free";
     font-size: 12px;
@@ -116,6 +126,7 @@ a {
     color: white;
     padding-left: 5px;
 }
+
 .subitem a {
     padding: 10px 15px;
 }
