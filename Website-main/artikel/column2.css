@@ -18,6 +18,11 @@ body {
     text-align: justify
 }
 
+h1,h2,h3,h4,h5 {
+     margin-top: 10px;
+     margin-bottom: 5px;
+    }
+
 .menu a {
     color:blueviolet;
     padding: 18px;
