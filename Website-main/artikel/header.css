@@ -50,20 +50,33 @@ a {
 
 /* Menueansicht fuer mobile Ansicht */
 .menu {
+    
     /* flex fuer einreihige Anordnung im Menue */
     display: flex;
-    /**/
+    
+    /* ohne scrolling */
     flex-wrap: wrap;
+    
+    /* regelmäßiger Abstand zw. Menueitems */
     justify-content: space-between;
     align-items: center;
 }
+
+
 .menu li a {
+    
+    /* Block- Display fuer spaetere padding Nutzung */
     display: block;
     padding: 15px 5px;
 }
+
 .menu li.subitem a {
     padding: 15px;
 }
+
+/* es folgen Befehle zur Anordnung der einzelnen Menue Elemente (80- */
+
+/* Icon Einstell*/
 .toggle {
     order: 1;
     font-size: 20px;
