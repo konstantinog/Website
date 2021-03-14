@@ -1,4 +1,4 @@
-/* Basic styling */
+/* Basic styling, alle Elemente */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,36 +8,51 @@
     font-family: sans-serif;
     font-size: 16px;
 } */
+
 nav {
     background: #222;
     padding: 0 15px;
 }
+
+/* Ankertag/links bearbeiten */
 a {
     color: white;
     text-decoration: none;
 }
+
+/* Listenpunkte entfernen */
 .menu,
 .submenu {   
     list-style-type: none;
 }
+
+/* Logo vergroeßern und Innenabstaende anpassen */
 .logo {
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
 }
+
+/* alle Item Elemente padding auf 10px für mehr Abstand zwischen den einzelnen Elementen */
 .item {
     padding: 10px;
 }
+
+
 .item.button {
     padding: 9px 5px;
 }
+
+/* hover fuer alle Items anwenden die keine buttons sind */
 .item:not(.button) a:hover,
 .item a:hover::after {
     color: #ccc;
 }
 
-/* Mobile menu */
+/* Menueansicht fuer mobile Ansicht */
 .menu {
+    /* flex fuer einreihige Anordnung im Menue */
     display: flex;
+    /**/
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
