@@ -100,15 +100,13 @@ a {
     display: block;
 }
 
-.button.secondary { /* divider between buttons and menu links */
-    border-bottom: 1px #444 solid;
-}
 
-/* Submenue aufklappbar machen fuer mobile Ansicht */
+/* Submenue in der mobilen Ansicht unterordnen */
 .submenu {
     display: none;
 }
 
+/* Submenue aufklappbar machen */
 .submenu-active .submenu {
    display: block;
 }
